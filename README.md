@@ -1,6 +1,14 @@
 # algorithms
 all things algorithms
 
+| Big O        | Name        | Example                                 | Meaning                                     |
+| ------------ | ----------- | --------------------------------------- | ------------------------------------------- |
+| **O(1)**     | Constant    | Accessing an element in a list by index | Same time no matter how large the input     |
+| **O(n)**     | Linear      | Scanning a list of names                | Time grows with input size                  |
+| **O(log n)** | Logarithmic | Binary search                           | Super-efficient — halves the work each time |
+| **O(n²)**    | Quadratic   | Comparing all pairs of items            | Grows very quickly — bad for large data     |
+
+
 ## Search algorithms 
 
 1. linear_search - Check each item in order until you find what you’re looking for.
