@@ -11,11 +11,11 @@ def linear_search(items, target):
 
 
 if __name__ == "__main__":
-    fruits = ["apple", "banana", "cherry", "mango", "pear"]
-    print("\nList:", fruits)
+    baseball_players = ["Greg Maddux", "Ken Griffey Jr.", "Pete Rose", "Mike Piazza", "Barry Bonds", "Sammy Sosa", "Mark McGwire"]
+    print("\nList:", baseball_players)
 
-    result = linear_search(fruits, "mango")
+    result = linear_search(baseball_players, "Pete Rose")
     if result != -1:
-        print(f"\nFound 'mango' at index {result}")
+        print(f"\nFound 'Pete Rose' at index {result}")
     else:
-        print("\n'mango' not found")
+        print("\n'Player' not found")
