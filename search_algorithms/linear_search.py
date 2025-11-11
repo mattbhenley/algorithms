@@ -1,8 +1,4 @@
 def linear_search(items, target):
-    """
-    Check each element until we find the target.
-    Time complexity: O(n)
-    """
     for i, item in enumerate(items):
         print(f"Checking index {i}: {item}")  # to visualize
         if item == target:
