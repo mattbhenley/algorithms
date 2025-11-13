@@ -14,7 +14,12 @@ To measure efficiency, we use Big O Notation, which describes how the runtime gr
 
 ## Search algorithms 
 
-1. linear_search - Check each item in order until you find what you’re looking for.
+1. linear search - Check each item in order until you find what you’re looking for.
 
 Time Complexity:
 O(n) → the more items, the longer it takes.
+
+2. binary search - Works only on sorted lists — cut the list in half repeatedly.
+
+Time Complexity:
+O(log n) → extremely fast for large datasets.
