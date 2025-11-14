@@ -23,3 +23,9 @@ O(n) → the more items, the longer it takes.
 
 Time Complexity:
 O(log n) → extremely fast for large datasets.
+
+## Sorting algorithms
+
+1. bubble sort - Repeatedly swaps adjacent elements if they are in the wrong order.
+
+Time Complexity: O(n^2)
