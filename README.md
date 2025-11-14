@@ -27,3 +27,7 @@ Time Complexity:O(log n)
 1. Bubble Sort - Repeatedly swaps adjacent elements if they are in the wrong order.
 
 Time Complexity: O(n^2)
+
+2. Selection Sort - Selects the smallest element and moves it to the front.
+
+Time Complexity: O(n^2)
