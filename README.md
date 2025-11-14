@@ -14,18 +14,16 @@ To measure efficiency, we use Big O Notation, which describes how the runtime gr
 
 ## Search algorithms 
 
-1. linear search - Check each item in order until you find what you’re looking for.
+1. Linear Search - Check each item in order until you find what you’re looking for.
 
-Time Complexity:
-O(n) → the more items, the longer it takes.
+Time Complexity:O(n)
 
-2. binary search - Works only on sorted lists — cut the list in half repeatedly.
+2. Binary Search - Works only on sorted lists — cut the list in half repeatedly.
 
-Time Complexity:
-O(log n) → extremely fast for large datasets.
+Time Complexity:O(log n)
 
 ## Sorting algorithms
 
-1. bubble sort - Repeatedly swaps adjacent elements if they are in the wrong order.
+1. Bubble Sort - Repeatedly swaps adjacent elements if they are in the wrong order.
 
 Time Complexity: O(n^2)
