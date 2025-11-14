@@ -28,6 +28,10 @@ Time Complexity:O(log n)
 
 Time Complexity: O(n^2)
 
-2. Selection Sort - Selects the smallest element and moves it to the front.
+2. Selection Sort - Selects the smallest element and moves it to the front each pass.
 
 Time Complexity: O(n^2)
+
+3. Merge Sort - Divide and Conquer approach.
+
+Time Complexity: O(n log n)
